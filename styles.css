@@ -35,6 +35,7 @@ body {
   z-index: 1;
   width: min(1060px, 92vw);
   margin: 2rem auto;
+  font-size: large;
 }
 
 .top-bar {

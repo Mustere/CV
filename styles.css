@@ -49,7 +49,12 @@ body {
   font-weight: 700;
   letter-spacing: 0.08em;
 }
-
+.row {
+  display: grid;
+  grid-template-columns: 24px auto;
+  align-items: center;
+  gap: 6px;
+}
 .controls {
   display: flex;
   gap: 0.5rem;

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Дмитрий Масловский — Resume / Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+    <div class="container">
+      <header class="top-bar">
+        <div class="logo">/Mustere</div>
+        <div class="controls">
+          <button class="lang-btn active" data-lang="ru">RU</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+      </header>
+
+      <main class="card">
+        <section class="hero">
+          <div class="photo-frame">
+            <img src="photos/DSC04823.jpg" alt="Портрет Дмитрия Масловского" class="profile-photo" />
+          </div>
+          <div class="hero-meta">
+            <h1 data-i18n="name">Дмитрий Масловский</h1>
+            <p class="location" data-i18n="location">📍 Moscow, Russia</p>
+            <p class="contact">
+              📧 <a href="mailto:d.maslovskiy@bk.ru">d.maslovskiy@bk.ru</a>
+              <br />
+              📱 <a href="https://t.me/Muster_Maslovskiy" target="_blank" rel="noreferrer">Telegram</a>
+              <br />
+              💻 <a href="https://github.com/Mustere" target="_blank" rel="noreferrer">Github</a>
+            </p>
+            <div class="goal-line">
+              <span class="prompt">$</span>
+              <span id="typed-text"></span><span class="cursor">█</span>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2 data-i18n="goalTitle">🧑‍💻 Профиль инженера</h2>
+          <p data-i18n="goalText">
+            Инженер-разработчик (Embedded / Backend / System Engineer) с практическим опытом разработки микроконтроллерных систем, CRM-модулей и администрирования Linux-систем.
+          </p>
+        </section>
+
+        <section>
+          <h2 data-i18n="skillsTitle">⚙️ Ключевые навыки</h2>
+          <div class="grid">
+            <article class="panel">
+              <h3 data-i18n="embeddedTitle">📟 Embedded / Электроника</h3>
+              <ul>
+                <li data-i18n="embedded1">STM32 (USB HID, bootloader, отладка устройств)</li>
+                <li data-i18n="embedded2">Цифровая схемотехника (триггеры, конечные автоматы, карты Карно)</li>
+                <li data-i18n="embedded3">Разработка и анализ логических схем</li>
+                <li data-i18n="embedded4">Работа с временными диаграммами</li>
+              </ul>
+            </article>
+
+            <article class="panel">
+              <h3 data-i18n="programmingTitle">💻 Программирование</h3>
+              <ul>
+                <li data-i18n="programming1">C / C++ (embedded)</li>
+                <li data-i18n="programming2">JavaScript / PHP (Webasyst CRM)</li>
+                <li data-i18n="programming3">Работа с базами данных</li>
+                <li data-i18n="programming4">UI-разработка (модальные окна, Select2)</li>
+                <li data-i18n="programming5">Отладка и анализ ошибок (hardware + software)</li>
+              </ul>
+            </article>
+
+            <article class="panel">
+              <h3 data-i18n="linuxTitle">🐧 Linux / Администрирование</h3>
+              <ul>
+                <li data-i18n="linux1">Уверенная работа в Linux (CLI, bash)</li>
+                <li data-i18n="linux2">Настройка и администрирование серверов</li>
+                <li data-i18n="linux3">SSH, SMB, VNC / RDP</li>
+                <li data-i18n="linux4">Развертывание и настройка LAMP</li>
+                <li data-i18n="linux5">Хостинг, поддержка сайтов, диагностика сети</li>
+              </ul>
+            </article>
+
+            <article class="panel">
+              <h3 data-i18n="cadTitle">🛠 CAD / Дизайн</h3>
+              <ul>
+                <li data-i18n="cad1">SolidWorks, КОМПАС-3D</li>
+                <li data-i18n="cad2">Micro-Cap, NI-Multisim</li>
+                <li data-i18n="cad3">CorelDRAW (векторная графика, допечатная подготовка)</li>
+                <li data-i18n="cad4">Adobe Photoshop (обработка изображений, UI/графика)</li>
+              </ul>
+            </article>
+
+            <article class="panel">
+              <h3 data-i18n="educationTitle">🎓 Образование</h3>
+              <p data-i18n="educationText">Студент, МГТУ им. Н.Э.Баумана, РЛ1 (с 2023 г.)</p>
+            </article>
+
+            <article class="panel">
+              <h3 data-i18n="languagesTitle">🌍 Языки</h3>
+              <p data-i18n="languagesText">Русский — родной; Английский — B1</p>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

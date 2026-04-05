@@ -61,7 +61,7 @@ const dictionary = {
     linux4: "LAMP deployment and configuration",
     linux5: "Website hosting, support, and basic network diagnostics",
     cadTitle: "🛠 CAD / Design",
-    cad1: "SolidWorks, КОМПАС-3D",
+    cad1: "SolidWorks, KOMPAS-3D",
     cad2: "Micro-Cap, NI-Multisim",
     cad3: "CorelDRAW (vector graphics, prepress preparation)",
     cad4: "Adobe Photoshop (image processing, UI/graphics)",
